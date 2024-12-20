@@ -332,11 +332,11 @@ nav .fas{
         background-image: url("images/BG.PNG");
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 108%;
+        font-size: 21px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     nav .fas{
         display: block;
