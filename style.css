@@ -329,14 +329,14 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url("images/BG.PNG");
+        background-image: url("images/new.PNG");
     }
     .header-text{
-        margin-top: 108%;
-        font-size: 21px;
+        margin-top: 70%;
+        font-size: 30px;
     }
     .header-text h1{
-        font-size: 20px;
+        font-size: 23px;
     }
     nav .fas{
         display: block;
