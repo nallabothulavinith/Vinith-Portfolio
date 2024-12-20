@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a9d7fe1bad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="/Users/apple/Documents/images/logo.PNG" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Analyst Enthusiast</p>
+            <h1>Hi, I'm <span>Nallabothula Vinith</span><br>Specializing in uncovering insights from data<br>using Python, SQL, Power BI, and Excel.</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/Users/apple/Documents/images/mob.PNG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate Data Analyst enthusiast with expertise in Excel, Power BI, SQL, Tableau, and HTML/CSS. Having completed my MBA in 2024, I am fully committed to building a career in Data Analytics. I have created interactive sales dashboards in Power BI and Tableau and designed HTML & CSS portfolios to showcase my skills. I am currently expanding my knowledge in Python to further enhance my data analysis capabilities. I am eager to leverage my skills to uncover insights and drive data-driven decisions. I am looking for opportunities to contribute and grow in the field of Data Analysis.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Analytics</span><br>Analyzing and interpreting data to support decision-making</li>
+                        <li><span>Dashboard Creation</span><br>Developing interactive dashboards using Power BI, Tableau, and Excel</li>
+                        <li><span>SQL & Database Management</span><br>Writing and optimizing queries for data retrieval and analysis</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024</span><br>Data Analytics Training at Unified Mentor & whitescholars </li>
+                        <li><span>2024</span><br>Data Analyst Internship - Created dashboards using Power BI, Tableau, Excel, and worked with Python and SQL</li>
+                        <li><span>2021 - 2022</span><br>Sales Manager at Reliance - Managed sales targets and transitioned to HR through internal transfer</li>
+                        <li><span>2022 - Current</span><br>HR Recruiter at Reliance - Led recruitment efforts and support HR operations</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017 - 2020</span><br>Bachelor’s in Business and Operations Management from PIHM Hyderabad</li>
+                        <li><span>2021 - 2024</span><br>MBA (Marketing & HR Management) from Sri Venkateswara University Tirupati.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------expertise---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">What I Offer</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-chart-line"></i>
+                <h2>Data Analytics</h2>
+                <p>Transforming raw data into actionable insights through advanced analytics techniques and tools like Adv Excel, Power BI, and Python.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Dashboard Creation</h2>
+                <p>Designing interactive and visually appealing dashboards to simplify data interpretation for business decisions.</p>
+                <a href="https://public.tableau.com/views/Book1_17345481244490/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-database"></i>
+                <h2>Database Management</h2>
+                <p>Managing and querying databases efficiently using SQL to support data-driven strategies and operations.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/Users/apple/Documents/images/1.jpg">
+                <div class="layer">
+                    <h3>Data Analysis Project</h3>
+                    <p>This project demonstrates my ability to analyze large datasets and provide actionable insights using Power BI and Python.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Users/apple/Documents/images/4.jpg">
+                <div class="layer">
+                    <h3>Interactive Dashboard</h3>
+                    <p>Created an interactive dashboard using Tableau to visualize business performance metrics and key indicators for decision-making.</p>
+                    <a href="https://public.tableau.com/views/Book1_17345481244490/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"><i class="fas fa-external-link-alt"></i></a>
+                </div>                        
+            </div>
+            <div class="work">
+                <img src="/Users/apple/Documents/images/3.PNG">
+                <div class="layer">
+                    <h3>SQL Data Management</h3>
+                    <p>Developed complex SQL queries to extract and analyze data from large databases to support data-driven strategies.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> vinith1211@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9704447287</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/vinithphotographytalks/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.hackerrank.com/profile/vinithn"><i class="fa-brands fa-hackerrank"></i></a>
+                    <a href="https://github.com/nallabothulavinith"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nvinith/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="/Users/apple/Documents/images/N Vinith Exp.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nallabothula Vinith <i class="fa-solid fa-fire"></i>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
