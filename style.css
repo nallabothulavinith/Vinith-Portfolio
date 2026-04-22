@@ -329,7 +329,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(/Users/apple/Documents/Vinith-Portfolio/images/new.PNG);
+        background-image: url(images/mob ver.png);
     }
     .header-text{
         margin-top: 70%;
