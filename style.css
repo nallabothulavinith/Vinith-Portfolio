@@ -332,11 +332,11 @@ nav .fas{
         background-image: url(images/mobversi.png);
     }
     .header-text{
-        margin-top: 70%;
-        font-size: 30px;
+        margin-top: 30%;
+        font-size: 20px;
     }
     .header-text h1{
-        font-size: 23px;
+        font-size: 20px;
     }
     nav .fas{
         display: block;
